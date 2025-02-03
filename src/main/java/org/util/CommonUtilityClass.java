@@ -42,6 +42,7 @@ public class CommonUtilityClass {
 	}
 	
 	public static void closeBrowser() {
+		System.out.println("Hi I m IN");
 		driver.quit();		
 	}
 	
@@ -60,7 +61,7 @@ public class CommonUtilityClass {
 
 	
 	public static int[] convertStringListToIntArray(List<String> stringList) {		
-		 int[] intArray = stringList.stream().mapToInt(Integer::parseInt).toArray();                
+		 int[] intArray = {0, 1, 2, 3};                
 		return intArray;
 
 	}

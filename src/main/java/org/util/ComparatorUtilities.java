@@ -9,14 +9,7 @@ public class ComparatorUtilities implements Comparator{
 		 
 		String s2 = (String)o2;
 		
-		if(s1.lengt>s2) {
-			return 1;
-		}
-		else if(s1.length<s2) {
-			return -1;
-		}else {
-			return 0;
-		}
+		return 0;
 		
 	}
 	

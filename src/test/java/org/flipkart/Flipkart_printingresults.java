@@ -64,7 +64,7 @@ public class Flipkart_printingresults extends CommonUtilityClass{
 		}	
 		
 	//For price 
-		
+		System.out.println("printing results");
 		List<String> priceList = new LinkedList<String>();
 		List<WebElement> getiPhonePrice = searchPOM.getiPhonePrice();
 		for(WebElement e :getiPhonePrice) {
